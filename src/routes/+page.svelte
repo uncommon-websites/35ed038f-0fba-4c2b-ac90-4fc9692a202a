@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Discover the real city through the eyes of locals"
+	subtitle="Skip the tourist traps and find authentic spots curated by creators who actually live there."
+	imageSrc="/generated/image-a-group-of-young-millennials-sitting-at-.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by discovery platforms"
+	logoUrls={[
+		'https://cdn.brandfetch.io/airbnb.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/spotify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/netflix.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/uber.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
