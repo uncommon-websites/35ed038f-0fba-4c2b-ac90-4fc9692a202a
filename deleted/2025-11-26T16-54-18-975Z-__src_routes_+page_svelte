@@ -109,22 +109,5 @@
 		}
 	]}
 />
-<AboutTeaser />
-<CallToAction 
-	title="Be the first to find what actually feels right"
-	subtitle="Join early to get access in your city"
-	description="Find your next favorite spot before the lines do. Free to use. No spam. Just vibes."
-	imageSrc="/generated/image-a-young-millennial-woman-with-a-joyful-e.webp"
-	callsToAction={[
-		{
-			href: "/get-started",
-			label: "Get early access",
-			variant: "primary"
-		},
-		{
-			href: "/how-it-works",
-			label: "See how it works",
-			variant: "secondary"
-		}
-	]}
-/>
+<AboutTeaser generating />
+<CallToAction generating />
